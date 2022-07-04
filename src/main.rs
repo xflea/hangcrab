@@ -72,7 +72,6 @@ async fn main() -> Result<(), reqwest::Error> {
 
                 println!("Errors available: {} - {}", errors, string_guess);
                 println!("Current streak - {}", streak);
-                println!("Test - {}", word);
                 println!("Your tries - {:?}\n\n", tries);
 
                 utility::print_to_guess(&word, &mut tries);
